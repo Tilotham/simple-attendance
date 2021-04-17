@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0in;
+    background-color:antiquewhite;
+    padding: 10px;
+    border: black 5px;
+    font-size: 18px;
+}
+
+#attendanceForm {
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
