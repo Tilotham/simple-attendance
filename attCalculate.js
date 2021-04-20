@@ -46,6 +46,8 @@ function attendanceCalculator(){
     absent.sort();
     presentRollno.sort(numericSort);
     absentRollno.sort(numericSort);
+    document.getElementById("studentsPresentRollnoLabel").innerHTML="Students Present Rollno, No of Students "+present.length;
+    document.getElementById("studentsAbsentRollnoLabel").innerHTML="Students Absent Rollno, No of Students "+absent.length;
     document.getElementById("studentsPresentRollno").value=presentRollno;
     document.getElementById("studentsAbsentRollno").value=absentRollno;
     document.getElementById("studentsPresent").value=present;
